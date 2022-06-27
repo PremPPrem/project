@@ -1,0 +1,50 @@
+@import '@/assets/_variables.scss';
+
+#con {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background: #f7c08a;
+    color: #000;
+    line-height: 1.5rem;
+}
+.form-warp {
+    background: #f7f8f6;
+    color: #000;
+    padding: 20px;
+    opacity: 0.7;
+}
+.form-warp h1 , .form-warp p {
+    text-align: center;
+}
+.form-warp .form-group label {
+    display: block;
+    color: #444;
+}
+.form-warp .form-group input {
+    width: 100%;
+    border: #ccc solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.form-warp button {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    background: #f7c08a;
+    color: #000;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+} 
+.form-warp button:hover {
+    background-color: #ccc;
+    color: #fff;
+    border-color: #ccc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}

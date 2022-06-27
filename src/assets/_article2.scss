@@ -1,0 +1,90 @@
+@import './variables';
+#article2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+   }
+   
+   .btnshow {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: $purple;
+    border-radius: 30px; 
+    color: $cream;
+    font-size: 20px;
+    font-weight: 1000;
+    cursor: pointer;
+   }
+   .btnshow:hover {
+    color: $creamy;
+   }
+   .btnsubmit {
+    
+    padding: 10px 15px;
+    background-color: $blue;
+    border: transparent;
+    color: $cream;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+   }
+   .btnsubmit:hover {
+    color: $creamy;
+   }
+   .btnclose {
+    
+    padding: 10px 15px;
+    background-color: $pink;
+    border: transparent;
+    color: $cream;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+   }
+   .btnclose:hover {
+    color: $creamy;
+   }
+   .btnx {
+    
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 40px;
+    border: none;
+   }
+   .btnx:hover{
+        color: $pink;
+   }
+
+
+   .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    width: 100%;
+    max-width: 400px;
+    background-color: $smoke;
+    border-radius: 20px;
+    text-align: right;
+    padding: 10px;
+   }
+    .read {
+     color: $black;
+     font-size: 30px;
+     font-weight: 1000;
+     margin-bottom: 15px;
+     text-align: left;
+    }
+    
+    p {
+     color: $gray;
+     font-size: 16px;
+     font-weight: 600;
+     margin-bottom: 30px;
+     text-align: left;
+    }
+
+   
